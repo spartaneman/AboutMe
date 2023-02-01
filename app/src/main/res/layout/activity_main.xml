@@ -26,6 +26,7 @@
         />
     <RadioGroup
         android:id="@+id/tip_radioGroup"
+        android:checkedButton="@id/twentyTip_radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/serviceQuestion_textview"
@@ -38,12 +39,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
-            android:id="@+id/fifteenTip_radioButton"
+            android:id="@+id/eighteenTip_radioButton"
             android:text="@string/goodTip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
-            android:id="@+id/tenTip_radioButton"
+            android:id="@+id/fifteenTip_radioButton"
             android:text="@string/okayTip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
