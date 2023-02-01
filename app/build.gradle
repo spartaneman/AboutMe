@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.example.aboutme'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.aboutme"
@@ -30,6 +30,10 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        viewBinding true
+    }
+
 }
 
 dependencies {

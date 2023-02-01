@@ -5,4 +5,5 @@
     <string name="amazingTip">Amazing (20%)</string>
     <string name="goodTip">Good (18%)</string>
     <string name="okayTip">Okay (15%)</string>
+    <string name="total_amount">Total Amount: %s</string>
 </resources>
