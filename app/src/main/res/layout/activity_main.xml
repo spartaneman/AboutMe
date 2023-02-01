@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-<!-- this is how you comment in XML -->
+<!-- this is how you comment in XML nice -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
